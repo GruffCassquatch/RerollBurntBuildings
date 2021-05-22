@@ -11,7 +11,7 @@ namespace RerollBurntBuildings
 
             if (numParameters < 1 || numParameters > 1)
             {
-                uConsole.Log("|  This command requires a single argument (e.g. LakeCabins)");
+                uConsole.Log("|  This command requires a single argument (e.g. help)");
                 PrintUsage();
                 return;
             }

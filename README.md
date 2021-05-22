@@ -2,7 +2,7 @@
 A mod for The Long Dark. Adds console commands that allow you to reroll the random burnt buildings in various locations.  
 Also has a setting to enable random burnt buildings in Coastal Highway when playing on Interloper.  
 
-Credit to [ds5678](https://github.com/ds5678) for giving me the base of this mod and [zeobviouslyfakeacc](https://github.com/zeobviouslyfakeacc) for the CacheControl mod which I used as a guide for many things.
+Credit to [ds5678](https://github.com/ds5678) for giving me the base of this mod and [zeobviouslyfakeacc](https://github.com/zeobviouslyfakeacc) for the [CacheControl](https://github.com/zeobviouslyfakeacc/CacheControl) mod which I used as a guide for many things.
 
 ## Requirements  
 [MelonLoader](https://github.com/HerpDerpinstine/MelonLoader/releases/latest/download/MelonLoader.Installer.exe)  

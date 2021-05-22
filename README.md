@@ -34,8 +34,11 @@ Delete RerollBurntBuildings.dll and RerollBurntBuildings.json file from your Mod
 
 * To reroll a set of burnt buildings, use the appropriate TargetArea argument:
   * For the Lake Cabins at Mystery Lake: ```reroll_burntbuildings LakeCabins```
+    * Buildings: 4, Possibilities: 3 (each with different combo of 2 burnt/2 unburnt)
   * For the houses in Milton: ```reroll_burntbuildings Milton```
+    * Buildings: 21, Possibilities: 3 (each with different combo of 6 burnt)
   * For the houses at Thomson's Crossing in Pleasant Valley: ```reroll_burntbuildings ThomsonsCrossing```
+    * Buildings: 3, Possibilities: 3 (each with 1 house unburnt)
   * On Coastal Highway:
     * The main area of the town, near Quonset: ```reroll_burntbuildings TownNorth```
       * Buildings: 6, Possibilities: 4 (each with different combo of 3 burnt/3 unburnt)

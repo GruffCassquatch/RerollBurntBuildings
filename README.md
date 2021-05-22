@@ -49,8 +49,8 @@ Delete RerollBurntBuildings.dll and RerollBurntBuildings.json file from your Mod
 1. Click CONFIRM to apply your changes (or BACK to exit without applying changes)
 1. While in an **Interloper** game and **outdoors** in **Coastal Highway**, open the console (F1)
 1. Use the command ```reroll_burntbuildings interloper```
- 1. If you have the setting *enabled*, random burnt buildings will be generated
- 1. If you have the setting *disabled*, the random burnt buildings will be reverted to Interloper vanilla state
+  1. If you have the setting *enabled*, random burnt buildings will be generated
+  1. If you have the setting *disabled*, the random burnt buildings will be reverted to Interloper vanilla state
 1. Change scenes (e.g. go inside) to generate the correct version of the Fishing Hut with the workbench behind it at Fishing Camp 
 1. After performing these steps to enable randomisaion, you can use the other console commands to reroll specific areas in Coastal Highway
 

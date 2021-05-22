@@ -18,8 +18,7 @@ Also has a setting to enable random burnt buildings in Coastal Highway when play
 Delete RerollBurntBuildings.dll and RerollBurntBuildings.json file from your Mods folder  
 
 ## **How to use the console commands:**
-* **Be aware these commands will randomise building spawns!**
-* **Use with common sense!**
+* **Be aware these commands will randomise building spawns! Use with common sense!**
 * You must be outdoors in the same region as the buildings you want to reroll
 * Commands are not case-sensitive
 * Use the command ```reroll_burntbuildings help``` to bring up a guide

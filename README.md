@@ -24,11 +24,13 @@ Delete RerollBurntBuildings.dll and RerollBurntBuildings.json file from your Mod
 * You must be **outdoors** in the same region as the buildings you want to reroll
 * Commands are not case-sensitive
 * Use the command ```reroll_burntbuildings help``` to bring up a guide
-* You can reroll over and over
-* Each area has a specific set of possible building spawns, some areas have more possibilities than others
-  * E.g. Buildings A, B & C might only have the possibile configuration: (1) A & B burnt, C unburnt (2) A & C burnt, B unburnt
+* Buildings come in 'groups'; you can only reroll the whole group, not just one building in a group
+* Each group has a specific set of possible building spawns, some groups have more possibilities than others
+  * E.g. A group of buildings A, B & C might only have the possibile configuration: (1) A & B burnt, C unburnt (2) A & C burnt, B unburnt
   * No matter how many times you reroll, these would be the only two possible outcomes
-* Some buildings will never be burnt and some will always be destroyed; you can only reroll for the random ones  
+* Some buildings will never be burnt and some will always be destroyed; you can only reroll for the random ones
+* My advice is to use the command at the specific location so you can see the results
+* You can reroll over and over  
 
 * To reroll a set of burnt buildings, use the appropriate TargetArea argument:
   * For the Lake Cabins at Mystery Lake: ```reroll_burntbuildings LakeCabins```

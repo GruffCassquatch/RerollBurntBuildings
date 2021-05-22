@@ -41,6 +41,7 @@ Delete RerollBurntBuildings.dll and RerollBurntBuildings.json file from your Mod
     * The houses across the highway from Quonset, near the jetty: ```reroll_burntbuildings TownSouth```
     * The Waterfront Cottages: ```reroll_burntbuildings WaterfrontCottages```
     * LogSort: ```reroll_burntbuildings LogSort```
+     * Buildings: 1, Possibilities: 2, Burnt or Unburnt 
     * The cabins below the Abandoned Lookout: ```reroll_burntbuildings Cabins```
 
 

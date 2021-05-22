@@ -54,5 +54,5 @@ Delete RerollBurntBuildings.dll and RerollBurntBuildings.json file from your Mod
    1. If you have the setting *enabled*, random burnt buildings will be generated
    2. If you have the setting *disabled*, the random burnt buildings will be reverted to Interloper vanilla state
 8. Change scenes (e.g. go inside) to generate the correct version of the Fishing Hut with the workbench behind it at Fishing Camp 
-9. After performing these steps to enable randomisaion, you can use the other console commands to reroll specific areas in Coastal Highway
+9. After performing these steps to enable randomisation, you can use the other console commands to reroll specific areas in Coastal Highway
 

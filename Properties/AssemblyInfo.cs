@@ -36,5 +36,5 @@ using MelonLoader;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0")]
 [assembly: AssemblyFileVersion("1.0")]
-[assembly: MelonInfo(typeof(RerollBurntBuildings.Implementation), "RerollBurntBuildings", "1.0", "ds5678, GruffCassquatch")]
+[assembly: MelonInfo(typeof(RerollBurntBuildings.Implementation), "RerollBurntBuildings", "1.0", "zeobviouslyfakeacc, ds5678, GruffCassquatch")]
 [assembly: MelonGame("Hinterland", "TheLongDark")]

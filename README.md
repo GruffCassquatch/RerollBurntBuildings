@@ -38,11 +38,15 @@ Delete RerollBurntBuildings.dll and RerollBurntBuildings.json file from your Mod
   * For the houses at Thomson's Crossing in Pleasant Valley: ```reroll_burntbuildings ThomsonsCrossing```
   * On Coastal Highway:
     * The main area of the town, near Quonset: ```reroll_burntbuildings TownNorth```
+      * Buildings: 6, Possibilities: 4 (each with different combo of 3 burnt/3 unburnt)
     * The houses across the highway from Quonset, near the jetty: ```reroll_burntbuildings TownSouth```
+      * Buildings: 3, Possibilities: 3 (each with 1 house unburnt)
     * The Waterfront Cottages: ```reroll_burntbuildings WaterfrontCottages```
+      * Buildings: 3, Possibilities: 4 (3 with 1 house burnt, 1 with 2 burnt)
     * LogSort: ```reroll_burntbuildings LogSort```
-      * Buildings: 1, Possibilities: 2, Burnt or Unburnt 
+      * Buildings: 1, Possibilities: 2 (burnt or unburnt)
     * The cabins below the Abandoned Lookout: ```reroll_burntbuildings Cabins```
+      * Buildings: 2, Possibilities: 3 (2 with 1 burnt, 1 with both burnt)
 
 
 ## **How to enable/disable random burnt buildings on Interloper for Coastal Highway**

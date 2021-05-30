@@ -13,7 +13,7 @@ Credit to [ds5678](https://github.com/ds5678) for giving me the base of this mod
 
 
 ## **Installation:**   
-1. Download RerollBurntBuildings.dll from [releases](https://github.com/GruffCassquatch/RerollBurntBuildings/releases/download/1.0/RerollBurntBuildings.dll)  
+1. Download RerollBurntBuildings.dll from [releases](https://github.com/GruffCassquatch/RerollBurntBuildings/releases)  
 1. Drop RerollBurntBuildings.dll into your Mods folder  
 
 ## **Uninstallation:**  

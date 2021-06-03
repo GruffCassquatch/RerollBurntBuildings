@@ -24,6 +24,7 @@ Delete RerollBurntBuildings.dll and RerollBurntBuildings.json file from your Mod
 * **Be aware these commands will randomise building spawns! Use with common sense!**
 * You must be **outdoors** in the same region as the buildings you want to reroll
 * Commands are not case-sensitive
+* If you are using [Developer-Console](https://github.com/FINDarkside/TLD-Developer-Console/releases) v1.4+ you can use ```TAB``` to autocomplete commands
 * Use the command ```reroll_burntbuildings help``` to bring up a guide
 * Buildings come in 'groups'; you can only reroll the whole group, not just one building in a group
 * Each group has a specific set of possible building spawns, some groups have more possibilities than others

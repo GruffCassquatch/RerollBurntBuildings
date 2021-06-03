@@ -22,6 +22,10 @@ namespace RerollBurntBuildings
         public const string townNorthSpawner = "RandomSpawnObjectBase_townNorth";
         public const string townSouthSpawner = "RandomSpawnObjectBase_townSouth";
         public const string waterfrontSpawner = "RandomSpawnObjectBase_waterfront";
+        public const string fishingHutDoorsCHSpawner = "Design/RandomSpawnStructures/RandomFishHuts";
+        public const string fishingHutDoorsMLSpawner = "Design/RandomSpawnStructures/RanomFishHuts";
+
+        
         public static readonly string[] coastalSpawners = new string[] { cabinsSpawner, logsortSpawner, townNorthSpawner, townSouthSpawner, waterfrontSpawner};
 
         public override void OnApplicationStart()

@@ -73,9 +73,9 @@ namespace RerollBurntBuildings
             builder.AppendLine("|   - Command: force_reroll_burnthouses TargetArea");
             builder.AppendLine("|      -> Rerolls a specific area of burnt buildings");
             builder.AppendLine("|      -> The area options are:");
-            builder.AppendLine("|         -> Coastal Highway: 'Cabins', 'LogSort', 'TownNorth', 'TownSouth', and 'WaterfrontCottages'");
+            builder.AppendLine("|         -> Coastal Highway: 'Cabins', 'LogSort', 'TownNorth', 'TownSouth', 'WaterfrontCottages' and 'FishingHutDoors'");
             builder.AppendLine("|         -> Mountain Town: 'Milton'");
-            builder.AppendLine("|         -> Mystery Lake: 'LakeCabins'");
+            builder.AppendLine("|         -> Mystery Lake: 'LakeCabins' and 'FishingHutDoors'");
             builder.AppendLine("|         -> Pleasant Valley: 'ThomsonsCrossing'");
             builder.AppendLine("|   - Command: force_reroll_burnthouses help");
             builder.AppendLine("|      -> shows this message. Use anywhere.");
@@ -124,6 +124,10 @@ namespace RerollBurntBuildings
                 {
                     return GameObject.Find(Implementation.cabinsSpawner)?.GetComponentInChildren<RandomSpawnObject>();
                 }
+                else if (targetArea == "fishinghutdoors")
+                {
+                    return GameObject.Find(Implementation.fishingHutDoorsCHSpawner)?.GetComponentInChildren<RandomSpawnObject>();
+                }
                 else if (targetArea == "logsort")
                 {
                     return GameObject.Find(Implementation.logsortSpawner)?.GetComponentInChildren<RandomSpawnObject>();
@@ -142,9 +146,17 @@ namespace RerollBurntBuildings
                 }
                 return null;
             }
-            else if (targetArea == "lakecabins" && UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "LakeRegion")
+            else if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "LakeRegion")
             {
-                return GameObject.Find(Implementation.lakeCabinsSpawner)?.GetComponentInChildren<RandomSpawnObject>();
+                if (targetArea == "fishinghutdoors")
+                {
+                    return GameObject.Find(Implementation.fishingHutDoorsMLSpawner)?.GetComponentInChildren<RandomSpawnObject>();
+                }
+                else if (targetArea == "lakecabins")
+                {
+                    return GameObject.Find(Implementation.lakeCabinsSpawner)?.GetComponentInChildren<RandomSpawnObject>();
+                }
+                return null;
             }
             else if (targetArea == "milton" && UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "MountainTownRegion")
             {

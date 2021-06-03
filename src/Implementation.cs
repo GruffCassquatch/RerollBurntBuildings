@@ -1,10 +1,5 @@
 ﻿
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Harmony;
 using MelonLoader;
 using UnityEngine;
 
@@ -25,13 +20,37 @@ namespace RerollBurntBuildings
         public const string fishingHutDoorsCHSpawner = "Design/RandomSpawnStructures/RandomFishHuts";
         public const string fishingHutDoorsMLSpawner = "Design/RandomSpawnStructures/RanomFishHuts";
 
-        
         public static readonly string[] coastalSpawners = new string[] { cabinsSpawner, logsortSpawner, townNorthSpawner, townSouthSpawner, waterfrontSpawner};
-
+        
         public override void OnApplicationStart()
         {
             Debug.Log($"[{Info.Name}] version {Info.Version} loaded!");
+            Il2CppSystem.Collections.Generic.List<string> listOfPossibleParameters = new Il2CppSystem.Collections.Generic.List<string>();
+            listOfPossibleParameters.Add("Cabins");
+            listOfPossibleParameters.Add("cabins");
+            listOfPossibleParameters.Add("FishingHutDoors");
+            listOfPossibleParameters.Add("fishinghutdoors");
+            listOfPossibleParameters.Add("Help");
+            listOfPossibleParameters.Add("help");
+            listOfPossibleParameters.Add("Interloper");
+            listOfPossibleParameters.Add("interloper");
+            listOfPossibleParameters.Add("LakeCabins");
+            listOfPossibleParameters.Add("lakecabins");
+            listOfPossibleParameters.Add("LogSort");
+            listOfPossibleParameters.Add("logsort");
+            listOfPossibleParameters.Add("Milton");
+            listOfPossibleParameters.Add("milton");
+            listOfPossibleParameters.Add("ThomsonsCrossing");
+            listOfPossibleParameters.Add("thomsonscrossing");
+            listOfPossibleParameters.Add("TownNorth");
+            listOfPossibleParameters.Add("townnorth");
+            listOfPossibleParameters.Add("TownSouth");
+            listOfPossibleParameters.Add("townsouth");
+            listOfPossibleParameters.Add("WaterfrontCottages");
+            listOfPossibleParameters.Add("waterfrontcottages");
+
             uConsole.RegisterCommand("reroll_burntbuildings", new Action(RerollCommand.RerollBurntBuildings));
+            uConsoleAutoComplete.CreateCommandParameterSet("reroll_burntbuildings", listOfPossibleParameters);
             Settings.OnLoad();
         }
     }

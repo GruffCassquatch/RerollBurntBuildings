@@ -5,6 +5,7 @@ namespace RerollBurntBuildings
 {
     class RerollCommand
     {
+        
         internal static void RerollBurntBuildings()
         {
             int numParameters = uConsole.GetNumParameters();

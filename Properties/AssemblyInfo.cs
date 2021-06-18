@@ -34,7 +34,7 @@ using MelonLoader;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.2")]
-[assembly: AssemblyFileVersion("1.2")]
-[assembly: MelonInfo(typeof(RerollBurntBuildings.Implementation), "RerollBurntBuildings", "1.2", "zeobviouslyfakeacc, ds5678, GruffCassquatch")]
+[assembly: AssemblyVersion("1.3")]
+[assembly: AssemblyFileVersion("1.3")]
+[assembly: MelonInfo(typeof(RerollBurntBuildings.Implementation), "RerollBurntBuildings", "1.3", "zeobviouslyfakeacc, ds5678, GruffCassquatch")]
 [assembly: MelonGame("Hinterland", "TheLongDark")]

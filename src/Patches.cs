@@ -1,4 +1,4 @@
-﻿using Harmony;
+﻿using HarmonyLib;
 using System.Linq;
 using UnityEngine;
 
@@ -40,7 +40,7 @@ namespace RerollBurntBuildings
 
                 if (fishingCabin is null)
                 {
-                    MelonLoader.MelonLogger.LogError("Could not find fishing cabin");
+                    MelonLoader.MelonLogger.Error("Could not find fishing cabin");
                     return;
                 }
                 if (Settings.settings.randomiseInterloper)

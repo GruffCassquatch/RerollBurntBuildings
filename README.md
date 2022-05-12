@@ -1,7 +1,7 @@
 # Reroll Burnt Buildings  
 A mod for The Long Dark. Adds console commands that allow you to reroll the random burnt buildings in various locations. 
 
-Can also reroll for the random doors on fishing huts in Coastal Highway and Mystery Lake.  
+Can also reroll for the random **doors on fishing huts** in Coastal Highway and Mystery Lake.   
 
 Also has a setting to enable random burnt buildings in Coastal Highway when playing on Interloper.  
 

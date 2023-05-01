@@ -1,5 +1,4 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using MelonLoader;
 
@@ -12,7 +11,7 @@ using MelonLoader;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("RerollBurntBuildings")]
-[assembly: AssemblyCopyright("Copyright ©  2022")]
+[assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -34,7 +33,7 @@ using MelonLoader;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.4")]
-[assembly: AssemblyFileVersion("1.4")]
-[assembly: MelonInfo(typeof(RerollBurntBuildings.Implementation), "RerollBurntBuildings", "1.4", "zeobviouslyfakeacc, ds5678, GruffCassquatch")]
+[assembly: AssemblyVersion("2.0")]
+[assembly: AssemblyFileVersion("2.0")]
+[assembly: MelonInfo(typeof(RerollBurntBuildings.Implementation), "RerollBurntBuildings", "2.0", "zeobviouslyfakeacc, ds5678, GruffCassquatch, Phaedrus")]
 [assembly: MelonGame("Hinterland", "TheLongDark")]

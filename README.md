@@ -2,7 +2,7 @@
 A mod for The Long Dark.    
 CHOOSE THE CORRECT MOD VERSION TO MATCH YOUR GAME VERSION      
 
-## UPDATED FOR 2.12 / TFTFT BY PHAEDRUS        
+UPDATED FOR 2.12 / TFTFT BY PHAEDRUS        
 
 Adds console commands that allow you to reroll the random burnt buildings in various locations. 
 

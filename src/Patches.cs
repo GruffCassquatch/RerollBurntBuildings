@@ -1,5 +1,5 @@
 ﻿using HarmonyLib;
-using System.Linq;
+using Il2Cpp;
 using UnityEngine;
 
 namespace RerollBurntBuildings

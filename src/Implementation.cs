@@ -1,4 +1,5 @@
 ﻿using System;
+using Il2Cpp;
 using MelonLoader;
 using UnityEngine;
 

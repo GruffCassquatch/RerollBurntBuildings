@@ -1,4 +1,5 @@
 ﻿using System.Text;
+using Il2Cpp;
 using UnityEngine;
 
 namespace RerollBurntBuildings
